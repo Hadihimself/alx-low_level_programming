@@ -1,18 +1,17 @@
 /*
  *
- *
- *
- */
-
-#include<stdio.h>
-
-/*
- *
  */
 
 int main(void)
 {
-	printf("_putchar \n");
+	char *h ="_putchar";
+	
+	while(h)
+	{
+		_putchar(h);
+	}
+
+	_putchar('\n');
 
 	return (0);
 }
