@@ -2,7 +2,7 @@
  * File: 100-print_comb3.c
  *
  */
-#include<stdio>
+#include<stdio.h>
 
 /**
  *  main - Prints all possible combinations of two different digits,
