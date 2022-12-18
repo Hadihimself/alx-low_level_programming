@@ -2,6 +2,7 @@
  * File: 100-print_comb3.c
  *
  */
+
 #include<stdio.h>
 
 /**
@@ -10,6 +11,7 @@
  *
  *   Return: Always 0.
  */
+
 int main(void)
 {
 	int digit1, digit2;
@@ -30,7 +32,7 @@ int main(void)
 	
 	}
 
-	putchar('\n');
+	putchar ('\n');
 
 	return(0);
 
