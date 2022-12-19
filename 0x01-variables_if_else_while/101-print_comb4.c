@@ -17,9 +17,9 @@ int main(void)
 
 	for (x = 0 ; x < 8 ; x++)
 	{
-		for(y = x + 1 ; y < 9 ; y++)
+		for (y = x + 1 ; y < 9 ; y++)
 		{
-			for(z = y + 1; y < 10 ; y++ )
+			for (z = y + 1 ; y < 10 ; y++ )
 			{
 				putchar((x % 10) + '0');
 				putchar((y % 10) + '0');
