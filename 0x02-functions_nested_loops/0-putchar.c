@@ -1,9 +1,17 @@
 #include "main.h"
-int main (void)
+
+/**
+ * main:in main functionj
+ * take a break
+ */
+
+int main(void)
 {
 	char *h ="_putchar";
+
+	int i;
 	
-	while (h)
+	for (i = 0 ; i <= 7 ; i++)
 	{
 		_putchar(*h);
 		h++;
