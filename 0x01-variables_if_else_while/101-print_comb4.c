@@ -27,18 +27,16 @@ int main(void)
 
 				if (x == 7 && y == 8 && z == 9)
 				{
-				  continue;
+					continue;
 				}
-
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
-	
 	putchar('\n');
 
-	return(0);
+	return (0);
 
 }
 
