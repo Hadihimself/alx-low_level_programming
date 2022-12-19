@@ -7,10 +7,9 @@
 
 int main(void)
 {
-	char *h ="_putchar";
+	char *h = "_putchar";
 
 	int i;
-	
 	for (i = 0 ; i <= 7 ; i++)
 	{
 		_putchar(*h);
