@@ -6,14 +6,15 @@
 #include<stdio.h>
 
 /**
- * main: Write a program that prints all possible combinations of two two-digit numbers
+ *main - Write a program that prints all possible combinations
+ * of two two-digit numbers
  *
- * return always 0
+ * Return : always 0
  */
 
 int main(void)
 {
-	int x , y ;
+	int x, y;
 
 	for (x = 0 ; x <= 98 ; x++)
 	{
@@ -29,7 +30,7 @@ int main(void)
 				continue;
 
 			putchar(',');
-			putchar(' ' );
+			putchar(' ');
 
 
 		}
