@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void swap_int(&a, &b)
+void swap_int(int &a, int &b)
 {
 	int x;
 	x = &a;
