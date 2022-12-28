@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * print_alphabet_x10 - in print_alphabet_x10 functionj
+ * take a break
+ * Return: always 0
+ */
+
+void print_alphabet_x10(void)
+{
+	int i;
+	char *h = "abcdefghijklmnopqrstuvwxyz";
+	
+	for (i = 0 ; i <= 25 ; i++)
+	{
+		_putchar(*h);
+		h++;
+	}
+
+	_putchar('\n');
+
+}
