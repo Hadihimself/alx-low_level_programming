@@ -8,9 +8,8 @@
 
 void print_alphabet(void)
 {
-
 	int i;
-        char *h = "abcdefghijklmnopqrstuvwxyz";
+	char *h ="abcdefghijklmnopqrstuvwxyz";
 
 	for (i = 0 ; i <= 25 ; i++)
 	{
