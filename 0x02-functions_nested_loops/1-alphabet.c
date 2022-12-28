@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - in print_alphabet_x10 functionj
+ * print_alphabet - in print_alphabet functionj
  * take a break
  * Return: always 0
  */
