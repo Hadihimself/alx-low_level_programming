@@ -3,7 +3,7 @@
 
 /**
  * _strpbrk - Entry poin
- * input
+ * @s: input
  * @accept: input
  * Return: Always 0 (Success)
  */
