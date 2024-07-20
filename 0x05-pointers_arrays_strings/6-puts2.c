@@ -3,7 +3,7 @@
 
 /**
 * puts2 - this function prints every other character
-* @s: String to count
+* @str: String to count
 * Return: String length
 */
 
