@@ -6,14 +6,12 @@
 * Return: String length
 */
 
-int _puts(char *s)
+void _puts(char *str)
 {
-	int c = 0;
+	int i;
 
-	for ( ; *s != '\0' ; s++)
-	{
-		_putchar(*s);
-	}
+	for (i = 0; str[i] != '\0'; i++)
+		_putchar(str[i]);
+
 	_putchar('\n');
-
 }
