@@ -2,7 +2,7 @@
 #include "string.h"
 
 /**
-* print_array - this function prints s in reverse
+* *_strcpy - this function prints s in reverse
 * @dest: Destination string
 * @src: String to be copied from
 * Return: Always 0.
