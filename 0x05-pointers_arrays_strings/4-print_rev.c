@@ -2,7 +2,7 @@
 #include "string.h"
 
 /**
-* prinr_env - this function prints s in reverse
+* print_rev - this function prints s in reverse
 * @s: String to count
 * Return: String length
 */
@@ -10,13 +10,14 @@
 void print_rev(char *s)
 {
 	int i;
-	int x;
 
-	x = strlen(s);
+	i = 0;
 
-	for (i = x; i > 0; i--)
-	{
+	while (s[i] != '\0')
+		i++;
+
+	for (i -= 1; i >= 0; i--)
 		_putchar(s[i]);
-	}
+
 	_putchar('\n');
 }
