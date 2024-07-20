@@ -2,7 +2,7 @@
 
 /**
 * _puts - this function prints s
-* @s: String to count
+* @str: String to count
 * Return: String length
 */
 
