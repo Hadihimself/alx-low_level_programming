@@ -1,24 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * _strncat - string cat.
- * @dest: Destination string
- * @src: String to be added
- * @n: Array block
- * Return: Always 0.
+ * _strchr - locates a character in a string
+ * @s: string input
+ * @c: character to find
+ * Return: pointer to first occurence of c character
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strchr(char *s, char c)
 {
-	int i, j;
+	unsigned int i;
 
-	for (i = 0; dest[i] != '\0'; i++)
-		;
-
-	for (j = 0; j < n; j++, i++)
-	{
-		dest[i] = src[j];
-	}
-
-	return (dest);
+	for (i = 0; s[i] != '\0'; i++)
+		if (s[i] == c)
+			break;
+	return (s[i] == c ? (s + i) : '\0');
 }
